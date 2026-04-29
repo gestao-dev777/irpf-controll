@@ -2,6 +2,7 @@
 __pycache__/
 *.py[codz]
 *$py.class
+*.pyc
 
 # C extensions
 *.so
@@ -216,3 +217,17 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# Arquivos sensíveis e bases operacionais
+*.csv
+*.xlsx
+*.xls
+*.pdf
+
+# Exportações e dados locais
+data/
+correcao/
+
+
+
+
